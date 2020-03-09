@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="singolo3.css">
+    <title>Task Singolo. Part 3</title>
+</head>
+<body>
+    <section class="quote">
+        <div class="container">
+            <h2 class="h2">
+                Get a Quote
+            </h2>
+            <div class="quote__description">
+                Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.
+            </div>
+            <div class="quote__cols-container flex">
+
+                <form class="quote__form">
+                    <input type="text" placeholder="Name (Required)" name="name" required="" pattern="^[a-zA-Zа-яА-ЯёЁ]+ [a-zA-Zа-яА-ЯёЁ]+$">
+                    <input type="email" placeholder="Email (Required)" name="email" required="" pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+                    <input type="text" placeholder="Subject" name="subject">
+                    <textarea placeholder="Describe your project in detail..." name="description"></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+                <div class="quote__info">
+                        <h3 class="h3">Contact Information</h3>
+                        <p>Quisque hendrerit purus dapibus, ornare nibh vitae, viver- ra nibh.
+                          Fusce vitae aliquam tellus. Proin sit amet volutpat libero.
+                          Nulla sed nunc et tortor luctus faucibus.
+                          Morbi at aliquet turpis, et consequat felis.</p>
+                        <div class="quote__info-location flex">Elm St. 14/05 Lost City</div>
+                        <a class="quote__info-phone flex" href="tel:035283318635">03528 331 86 35</a>
+                        <a class="quote__info-mail flex" href="mailto:info@singolo.com">info@singolo.com</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container flex">
+            <div class="copyright">
+                © Copyright 2013
+            </div>
+            <div class="footer__links">
+                <ul class="ul">
+                    <li class="li social-link link facebook">
+                        <a href="#">
+                            <img src="assets/ico-facebook.svg" >
+                        </a>
+                    </li>
+                    <li class="li social-link link google">
+                        <a href="#">
+                            <img src="assets/ico-google-plus.svg" >
+                        </a>
+                    </li>
+                    <li class="li social-link link twitter">
+                        <a href="#">
+                            <img src="assets/ico-twitter.svg" >
+                        </a>
+                    </li>
+                    <li class="li social-link link linkedin">
+                        <a href="#">
+                            <img src="assets/ico-linkedin.svg" >
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
